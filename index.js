@@ -16,7 +16,7 @@ let userAns = await inquirer.prompt([{
     },
     {
         name: "to",
-        message: "Enter to Currency:",
+         message: "Enter to Currency:",
         type: "list",
         choices: ['USD', 'EUR', 'GBP', 'INR', 'PKR']
     },
